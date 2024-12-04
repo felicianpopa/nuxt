@@ -8,6 +8,12 @@ body {
     @apply bg-gray-50;
 }
 
+@layer base {
+    h2 {
+        @apply text-2xl font-bold;
+    }
+}
+
 @layer components {
     .btn {
         display: inline-block;
