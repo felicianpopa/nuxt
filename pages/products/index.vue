@@ -2,12 +2,10 @@
   <h1>Products page</h1>
 </template>
 
-<script>
-export default {
-
-}
+<script setup>
+definePageMeta({
+  layout: "products-layout",
+})
 </script>
 
-<style>
-
-</style>
+<style></style>
