@@ -1,11 +1,5 @@
 <template>
-    <div class="w-full max-w-96 m-auto">
-        <h2>{{ product.title }}</h2>
-        <img :src="product.image" alt="">
-        <p>Price: {{ product.price }}</p>
-        <p>Product ID: {{ product.id }}</p>
-    </div>
-
+    <ProductDetails :product="product" />
 </template>
 
 <script setup>
